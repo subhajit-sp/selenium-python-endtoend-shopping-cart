@@ -1,4 +1,3 @@
-from selenium import webdriver
 from PageObject.ProductPage import ProductPage
 from test_data import TestData
 from PageObject.CartPage import CartPage
