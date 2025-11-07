@@ -26,6 +26,7 @@ def browser_init(request):
     driver.quit()
 
 def test_sample(browser_init):
+    "this is for testing purpose"
     driver = browser_init
     driver.get("https://www.makemytrip.com")
     driver.find_element(By.XPATH, "//span[@class = 'commonModal__close']").click()
